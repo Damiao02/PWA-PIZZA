@@ -1,26 +1,45 @@
 import React from "react"
 import PizzaHeader from "../components/pizza-header"
+import PizzaMenu from "../components/pizza-menu"
+import PizzaBackdrop from "../components/pizza-backdrop"
+
 
 import {Link} from "gatsby"
+import { Transform } from "stream";
 
 export default class Index extends React.Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      color: "#ff00ff"
-    }
-  }
+  state = {
+    sideDrawerOpen: false
+  };
 
-  mudaCor() {
-    this.setState({color: "#0000ff"});
-  }
+  SideMenu = () =>{
+    this.setState((prevState) => {
+        return {sideDrawerOpen: !prevState.sideDrawerOpen};
+    });
+
+  };
+
+  BackMenu = () =>{
+     this.setState({sideDrawerOpen: false});
+  };
+
 
   render() {
+    let sideDrawer;
+    let backdrop;
+
+    if(this.state.sideDrawerOpen){
+      sideDrawer = <PizzaMenu/>;
+      backdrop = <PizzaBackdrop click={this.BackMenu}/>;
+    }
     return (
       <div>
-        <PizzaHeader/>
-       
+        <PizzaHeader SideMenu={this.SideMenu}/>
+        {sideDrawer}
+        {backdrop}       
+        
+               
       </div>
     )
   }
