@@ -5,7 +5,6 @@ import {Link} from "gatsby"
 
 
 
-
 export default class PizzaHeader extends 
 React.Component {
     
@@ -18,7 +17,7 @@ React.Component {
                     <PizzaButtonMenu click={this.props.SideMenu}/>
               </div>
                   <div className={PizzaHeaderStyle.logo}>
-                       
+                  
                   </div>
                   
                    <ul>
