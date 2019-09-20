@@ -24,6 +24,13 @@
     
 }
 
-.main ul li:hover{
+.main ul li:hover,
+.main ul li:active{
 border-bottom: 4px solid #fff;
+}
+
+@media (max-width: 990px){
+  .header ul{
+   display: none;
+}
 }

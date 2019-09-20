@@ -1,5 +1,6 @@
 import React from "react"
 import PizzaHeaderStyle from "./pizza-header.module.css"
+import PizzaButtonMenu from "../components/pizza-button-menu"
 import {Link} from "gatsby"
 
 
@@ -13,9 +14,13 @@ React.Component {
       return(
         <header className={PizzaHeaderStyle.header}>
               <div className={PizzaHeaderStyle.main}>
+              <div>
+                    <PizzaButtonMenu click={this.props.SideMenu}/>
+              </div>
                   <div className={PizzaHeaderStyle.logo}>
                        
                   </div>
+                  
                    <ul>
                      <li><Link to="#" style={{fontFamily: "Poppins Bold", color: this.props.color}}>Home</Link></li>
                      <li><Link to="#" style={{fontFamily: "Poppins Bold", color: this.props.color}}>Receitas</Link></li>
