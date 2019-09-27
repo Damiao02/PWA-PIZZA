@@ -1,13 +1,12 @@
 import React from "react"
-import PizzaHeaderStyle from "./pizza-header.module.css"
+import PizzaHeaderStyle from "./pizza-header-receitas.module.css"
 import PizzaButtonMenu from "../components/pizza-button-menu"
-import PizzaLogoMain from "../components/pizza-LogoMain"
 import {Link} from "gatsby"
 import logo from '../img/Logo.png';
 
 
 
-export default class PizzaHeader extends 
+export default class PizzaHeaderReceitas extends 
 React.Component {
     
  
@@ -30,9 +29,7 @@ React.Component {
                      <li><Link to="#" style={{fontFamily: "Poppins Bold", color: this.props.color}}>Sobre</Link></li>
                    </ul>
               </div>
-              <div>
-                    <PizzaLogoMain/>     
-              </div>
+             
         </header>
       );
   }
