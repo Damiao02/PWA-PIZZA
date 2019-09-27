@@ -1,0 +1,80 @@
+.menuSide{
+    height: 100%;
+    background: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    max-width: 300px;
+    z-index: 200;
+    
+   
+}
+
+.menuSide ul{
+    margin-top: 50px;
+    height: 350px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.menuSide ul li{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    
+}
+.menuSide ul li:hover,
+.menuSide ul li:active{
+
+ border-right: 4px solid rgba(232,51,122);
+}
+
+.menuSide a{
+    color: #686767;
+    text-decoration: none;
+}
+.menuSide ul li a{
+    line-height: 35px;
+}
+.menuSide span{
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #494949;
+}
+
+.menuBack{
+  
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+  }
+  .close1{
+    height: 5px;
+    width: 100%;
+    background-color: #494949;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  .close2{
+    height: 5px;
+    width: 100%;
+    background-color: #494949;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    transform: translateY(-2px) rotate(45deg);
+  }
+  
+  .menu-bg, .menuClose{
+    top: 0;
+    left: 0;
+    position: absolute;
+  }

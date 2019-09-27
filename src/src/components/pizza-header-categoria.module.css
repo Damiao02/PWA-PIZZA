@@ -1,0 +1,32 @@
+.header{
+    background: #fff;
+    height: 64px;;
+    width: 100%;
+  }
+  
+  .main ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 20%;
+  }
+  
+  .main ul li{
+    display: inline-block;
+    margin-right: 40px;
+    width:150px;
+    height: 35px;
+    text-align: center;
+  }
+  
+  .main ul li a{
+    text-decoration: none;
+    color: rgb(000, 000, 000);
+    padding: 5px 0.2px;
+      
+  }
+  
+  .main ul li:hover,
+  .main ul li:active{
+  border-bottom: 4px solid rgba(236, 101, 69);
+  }
