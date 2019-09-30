@@ -5,6 +5,7 @@ tempo: "30"
 title: "Pizza Marguerita"
 cover: "https://image.freepik.com/fotos-gratis/fatias-de-pizza-em-marmore-sobre-a-tabua-de-cortar_23-2147926088.jpg"
 category: "salgada"
+info: "Passo a passo para fazer uma pizza de marguerita perfeita com pequenos e surpreendentes segredos que fazem toda a diferença!"
 ---
 
 ## INGREDIENTES
