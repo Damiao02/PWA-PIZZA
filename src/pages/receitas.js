@@ -4,6 +4,7 @@ import PizzaMenu from "../components/pizza-menu"
 import PizzaBackdrop from "../components/pizza-backdrop"
 import PizzaHeaderCategoria from "../components/pizza-header-categoria"
 import PizzaMain from "../components/pizza-main"
+import PizzaCards from "../components/pizza-cards"
 
 
 import {Link} from "gatsby"
@@ -41,7 +42,8 @@ export default class Index extends React.Component {
         {sideDrawer}
         {backdrop}       
         <PizzaHeaderCategoria/>
-        <PizzaMain/>
+        
+        <PizzaCards/>
                
       </div>
     )
