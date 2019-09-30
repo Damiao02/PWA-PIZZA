@@ -1,0 +1,97 @@
+body{
+   background:  #F7F5F7;    
+}
+
+
+.servicos{
+    width: auto;
+    float: left;
+    padding: 3% 4%;
+}
+.servico{
+    width: 100%;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 5%;
+
+}
+.servico img{
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+    
+}
+.inner{
+    padding: 7%;
+}
+.inner a{
+    font-size: 1.5em;
+    color: #130400;
+    font-weight: 700;
+    text-decoration: none;
+}
+.inner h4{
+    font-size: 1.2em;
+    color: #130400;
+    margin-top: 2%;
+}
+.inner p{
+    margin-top: 6%;
+    color: #130400;
+    line-height: 1.5em;
+}
+
+.border{
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    margin: 20px auto;
+     
+}
+
+.testinfo{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.testinfo img{
+    width: 50px;
+    margin-right: 15px;
+    
+}
+.testpic{
+    margin-right: 40px;
+}
+
+@media screen and (min-width: 768px){
+
+    .servico{
+        width:49%;
+        float: left;
+        margin-right: 2%;
+    }
+    .servico:nth-child(2){
+        margin-right:0; 
+    }
+    .testpic{
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width: 960px){
+    .servico{
+       width: 32%; 
+    }
+    .servico:nth-child(2){
+     margin-right:2%; 
+ }
+ .servico:nth-child(3){
+     margin-right:0; 
+ }
+ 
+}
+
+
+
+
