@@ -29,3 +29,245 @@
   html{
     height: 100%;
   }
+
+  .receitas{
+    margin-top: 150px;
+    width: 90%;
+    float: left;
+    text-align: center;
+    position: absolute;
+  top: 5%; /* posiciona na metade da tela */
+  margin-left: auto; /* e retrocede metade da esquerda */
+    padding: 3% 4%;
+}
+.receita{
+  width: 100%;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 0;
+  margin-bottom: 3%;
+
+}
+.receita img{
+    border-radius: 0 0 7px 7px;
+    width: 100%;
+    
+}
+
+
+  .inner{
+    padding: 7%;
+}
+.inner a{
+  font-family: "Poppins Regular";
+    font-size: 1.5em;
+    color: #130400;
+    font-weight: 700;
+    text-decoration: none;
+}
+.inner h2{
+  font-family: "Poppins Light";
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #ff6a28;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.inner h3{
+  margin: 10px 0;
+    background-color: #f0f0f0;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Poppins Regular";
+    margin-bottom: 25px;
+}
+
+.inner ul li{
+  font-family: "Poppins Regular";
+  list-style: disc inside;
+  text-align: left;
+  line-height: 23px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 300;
+}
+.inner ul{
+  margin-bottom: 25px;
+}
+
+.inner ol li{
+  font-family: "Poppins Regular";
+  display: flex;
+    align-items: center;
+    margin: 15px 0;
+    list-style: none;
+    text-align: left;
+    line-height: 23px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+}
+.inner ol li span{
+  margin-left: 20px;
+    line-height: 20px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.testinfo{
+  font-family: "Poppins Regular";
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+.testinfo img{
+  width: 50px;
+  margin-right: 15px;
+  
+}
+.testpic{
+  margin-right: 40px;
+}
+
+
+@media screen and (min-width: 480px){
+  .receita{
+      width:80%;
+      float: left;
+      margin:0px auto;
+      margin-left: 10%;
+  }
+
+}
+/* SMALL DEVICES - TABLETS */
+
+@media screen and (min-width: 768px){
+
+  .receita{
+      width: 75%; 
+      margin: 0px auto;
+      float: left;
+      margin-left: 15%;
+  }
+}
+
+/* SMALL DEVICES - TABLETS & DESKTOPS */
+
+@media screen and (min-width: 960px){
+
+  .receita{
+    width: 55%; 
+    margin-left: 25%;
+ }
+ 
+}
+
+body{
+  background:  #F7F5F7;    
+}
+
+
+.servicos{
+   width: auto;
+   float: left;
+   padding: 3% 4%;
+}
+.servico{
+   width: 100%;
+   background-color: #fff;
+   text-align: left;
+   border-radius: 7px;
+   margin-bottom: 5%;
+
+}
+.servico img{
+   border-radius: 7px 7px 0 0;
+   width: 100%;
+   
+}
+.inner{
+   padding: 7%;
+}
+.inner a{
+   font-size: 1.5em;
+   color: #130400;
+   font-weight: 700;
+   text-decoration: none;
+}
+.inner h4{
+   font-size: 1.2em;
+   color: #130400;
+   margin-top: 2%;
+}
+.inner p{
+   margin-top: 6%;
+   color: #130400;
+   line-height: 1.5em;
+}
+
+.border{
+   width: 100%;
+   height: 1px;
+   background: #ddd;
+   margin: 20px auto;
+    
+}
+
+.testinfo{
+   display: flex;
+   height: 60px;
+   align-items: center;
+}
+
+.testinfo img{
+   width: 50px;
+   margin-right: 15px;
+   
+}
+.testpic{
+   margin-right: 40px;
+}
+
+@media screen and (min-width: 768px){
+
+   .servico{
+       width:49%;
+       float: left;
+       margin-right: 2%;
+   }
+   .servico:nth-child(2){
+       margin-right:0; 
+   }
+   .testpic{
+       margin-right: 15px;
+   }
+}
+
+@media screen and (min-width: 960px){
+   .servico{
+      width: 32%; 
+   }
+   .servico:nth-child(2){
+    margin-right:2%; 
+}
+.servico:nth-child(3){
+    margin-right:0; 
+}
+
+}
+
+
+
+
+
