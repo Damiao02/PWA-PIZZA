@@ -25,7 +25,7 @@ React.Component {
                   
                    <ul>
                      <li><Link to="/" style={{fontFamily: "Poppins Bold", color: this.props.color}}>Home</Link></li>
-                     <li><Link to="/receitas" style={{fontFamily: "Poppins Bold", color: this.props.color}}>Receitas</Link></li>
+                     <li><Link to="/salgadas" style={{fontFamily: "Poppins Bold", color: this.props.color}}>Receitas</Link></li>
                      <li><Link to="#" style={{fontFamily: "Poppins Bold", color: this.props.color}}>Adicionar Receita</Link></li>
                      <li><Link to="#" style={{fontFamily: "Poppins Bold", color: this.props.color}}>Sobre</Link></li>
                    </ul>

@@ -17,10 +17,10 @@ React.Component {
       return(
         <main className={PizzaCardsStyle.servicos}>
               <article className={PizzaCardsStyle.servico}>
-                  <Link to="#"><img src={marguerita} alt="Pizza Marguerita" /></Link>
+                  <Link to="/salgadas/pizza-marguerita"><img src={marguerita} alt="Pizza Marguerita" /></Link>
                   
                   <div className={PizzaCardsStyle.inner}>
-                  <Link to="#" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Marguerita</Link>
+                  <Link to="/salgadas/pizza-marguerita" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Marguerita</Link>
                   <h4 style={{fontFamily: "Poppins Regular", color: this.props.color}}>Receita de Pizza</h4>
                   <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de marguerita perfeita 
                 com pequenos e surpreendentes segredos que fazem toda a diferença!</p>
@@ -46,10 +46,10 @@ React.Component {
               </article>
 
               <article className={PizzaCardsStyle.servico}>
-                  <Link to="#"><img src={presunto_queijo} alt="Pizza Presunto e Queijo" /></Link>
+                  <Link to="/salgadas/pizza-presunto-e-queijo"><img src={presunto_queijo} alt="Pizza Presunto e Queijo" /></Link>
                   
                   <div className={PizzaCardsStyle.inner}>
-                  <Link to="#" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Presunto e Queijo</Link>
+                  <Link to="/salgadas/pizza-presunto-e-queijo" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Presunto e Queijo</Link>
                   <h4 style={{fontFamily: "Poppins Regular", color: this.props.color}}>Receita de Pizza</h4>
                   <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de presunto e queijo perfeita 
                 com pequenos e surpreendentes segredos que fazem toda a diferença!</p>
@@ -73,10 +73,10 @@ React.Component {
               </article>
 
               <article className={PizzaCardsStyle.servico}>
-                  <Link to="#"><img src={frango} alt="Pizza Frango" /></Link>
+                  <Link to="/salgadas/pizza-frango"><img src={frango} alt="Pizza Frango" /></Link>
                   
                   <div className={PizzaCardsStyle.inner}>
-                  <Link to="#" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Frango</Link>
+                  <Link to="/salgadas/pizza-frango" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Frango</Link>
                   <h4 style={{fontFamily: "Poppins Regular", color: this.props.color}}>Receita de Pizza</h4>
                   <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de frango perfeita 
                 com pequenos e surpreendentes segredos que fazem toda a diferença!</p>

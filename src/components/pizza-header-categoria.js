@@ -14,10 +14,10 @@ React.Component {
         <header className={PizzaHeaderCategoriaStyle.header}>
               <div className={PizzaHeaderCategoriaStyle.main}>
                    <ul>
-                     <li><Link to="#" style={{fontFamily: "Poppins Regular", color: this.props.color}}>SALGADAS</Link></li>
-                     <li><Link to="#" style={{fontFamily: "Poppins Regular", color: this.props.color}}>DOCES</Link></li>
-                     <li><Link to="#" style={{fontFamily: "Poppins Regular", color: this.props.color}}>VEGETARIANA</Link></li>
-                     <li><Link to="#" style={{fontFamily: "Poppins Regular", color: this.props.color}}>GOURMET</Link></li>
+                     <li><Link to="/salgadas" style={{fontFamily: "Poppins Regular", color: this.props.color}}>SALGADAS</Link></li>
+                     <li><Link to="/doces" style={{fontFamily: "Poppins Regular", color: this.props.color}}>DOCES</Link></li>
+                     <li><Link to="/vegetariana" style={{fontFamily: "Poppins Regular", color: this.props.color}}>VEGETARIANA</Link></li>
+                     <li><Link to="/gourmet" style={{fontFamily: "Poppins Regular", color: this.props.color}}>GOURMET</Link></li>
                    </ul>
               </div>
              
