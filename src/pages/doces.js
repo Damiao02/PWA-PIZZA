@@ -3,7 +3,7 @@ import PizzaHeaderReceitas from "../components/pizza-header-receitas"
 import PizzaMenu from "../components/pizza-menu"
 import PizzaBackdrop from "../components/pizza-backdrop"
 import PizzaHeaderCategoria from "../components/pizza-header-categoria"
-import marguerita from '../img/pizza-marguerita.jpg'
+import banana from '../img/pizza-banana.jpg'
 import frango from '../img/pizza-frango.jpg'
 import presunto_queijo from '../img/pizza-presunto-queijo.jpg'
 import serve from '../img/tray.png'
@@ -48,12 +48,12 @@ export default class Index extends React.Component {
         
         <main className="servicos">
               <article className="servico">
-                  <Link to="/salgadas/pizza-marguerita"><img src={marguerita} alt="Pizza Marguerita" /></Link>
+                  <Link to="/doces/pizza-banana"><img src={banana} alt="Pizza Marguerita" /></Link>
                   
                   <div className="inner">
-                  <Link to="/salgadas/pizza-marguerita" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Marguerita</Link>
+                  <Link to="/doces/pizza-banana" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza de Banana</Link>
                   <h4 style={{fontFamily: "Poppins Regular", color: this.props.color}}>Receita de Pizza</h4>
-                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de marguerita perfeita 
+                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de banana perfeita 
                 com pequenos e surpreendentes segredos que fazem toda a diferença!</p>
 
                  <div className="border" />
