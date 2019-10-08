@@ -4,8 +4,8 @@ import PizzaMenu from "../components/pizza-menu"
 import PizzaBackdrop from "../components/pizza-backdrop"
 import PizzaHeaderCategoria from "../components/pizza-header-categoria"
 import banana from '../img/pizza-banana.jpg'
-import frango from '../img/pizza-frango.jpg'
-import presunto_queijo from '../img/pizza-presunto-queijo.jpg'
+import noimage from '../img/noimage.jpg'
+import chocolate from '../img/pizza-chocolate.jpg'
 import serve from '../img/tray.png'
 import tempo from '../img/timer.png'
 
@@ -62,13 +62,13 @@ export default class Index extends React.Component {
                                  <img src={serve} alt="icone serve" />
                                     <div className="testpic" style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Serve:</span>
-                                            <br/>6 porções
+                                            <br/>4 porções
                                     </div>
 
                                     <img src={tempo} alt="icone tempo" />
                                     <div  style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Tempo:</span>
-                                            <br/>30 minutos
+                                            <br/>60 minutos
                                     </div>
                         </div>
                  
@@ -77,12 +77,12 @@ export default class Index extends React.Component {
               </article>
 
               <article className="servico">
-                  <Link to="/salgadas/pizza-presunto-e-queijo"><img src={presunto_queijo} alt="Pizza Presunto e Queijo" /></Link>
+                  <Link to="/doces/pizza-chocolate-morango"><img src={chocolate} alt="Pizza Presunto e Queijo" /></Link>
                   
                   <div className="inner">
-                  <Link to="/salgadas/pizza-presunto-e-queijo" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Presunto e Queijo</Link>
+                  <Link to="/doces/pizza-chocolate-morango" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza de Chocolate com Morango</Link>
                   <h4 style={{fontFamily: "Poppins Regular", color: this.props.color}}>Receita de Pizza</h4>
-                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de presunto e queijo perfeita 
+                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de chocolate com morango perfeita 
                 com pequenos e surpreendentes segredos que fazem toda a diferença!</p>
 
                     <div className="border" />
@@ -91,25 +91,25 @@ export default class Index extends React.Component {
                                  <img src={serve} alt="icone serve" />
                                     <div className="testpic" style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Serve:</span>
-                                            <br/>6 porções
+                                            <br/>8 porções
                                     </div>
 
                                     <img src={tempo} alt="icone tempo" />
                                     <div  style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Tempo:</span>
-                                            <br/>30 minutos
+                                            <br/>35 minutos
                                     </div>
                         </div>
                   </div>
               </article>
 
               <article className="servico">
-                  <Link to="/salgadas/pizza-frango"><img src={frango} alt="Pizza Frango" /></Link>
+                  <Link to="/doces/pizza-doce-leite-frigideira"><img src={noimage} alt="Pizza Frango" /></Link>
                   
                   <div className="inner">
-                  <Link to="/salgadas/pizza-frango" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Frango</Link>
+                  <Link to="/doces/pizza-doce-leite-frigideira" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza de Doce de Leite de Frigideira</Link>
                   <h4 style={{fontFamily: "Poppins Regular", color: this.props.color}}>Receita de Pizza</h4>
-                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de frango perfeita 
+                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de doce de leite de frigideira perfeita 
                 com pequenos e surpreendentes segredos que fazem toda a diferença!</p>
 
                 <div className="border" />
@@ -118,13 +118,13 @@ export default class Index extends React.Component {
                                  <img src={serve} alt="icone serve" />
                                     <div className="testpic" style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Serve:</span>
-                                            <br/>6 porções
+                                            <br/>4 porções
                                     </div>
 
                                     <img src={tempo} alt="icone tempo" />
                                     <div  style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Tempo:</span>
-                                            <br/>30 minutos
+                                            <br/>20 minutos
                                     </div>
                         </div>
                   </div>
