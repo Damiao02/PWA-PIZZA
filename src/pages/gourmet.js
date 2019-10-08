@@ -75,58 +75,64 @@ export default class Index extends React.Component {
               </article>
 
               <article className="servico">
-                  <Link to="/salgadas/pizza-presunto-e-queijo"><img src={presunto_queijo} alt="Pizza Presunto e Queijo" /></Link>
+                  <Link to="#"><img src={noimage} alt="Pizza None" /></Link>
                   
                   <div className="inner">
-                  <Link to="/salgadas/pizza-presunto-e-queijo" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Presunto e Queijo</Link>
+                  <Link to="#" style={{fontFamily: "Poppins Regular", color: this.props.color}}>None</Link>
                   <h4 style={{fontFamily: "Poppins Regular", color: this.props.color}}>Receita de Pizza</h4>
-                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de presunto e queijo perfeita 
+                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza "não adicionada" perfeita 
                 com pequenos e surpreendentes segredos que fazem toda a diferença!</p>
 
-                    <div className="border" />
+                 <div className="border" />
 
-                <div  className="testinfo">
+                  <div  className="testinfo">
                                  <img src={serve} alt="icone serve" />
                                     <div className="testpic" style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Serve:</span>
-                                            <br/>6 porções
+                                            <br/>0 porções
                                     </div>
 
                                     <img src={tempo} alt="icone tempo" />
                                     <div  style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Tempo:</span>
-                                            <br/>30 minutos
+                                            <br/>0 minutos
                                     </div>
                         </div>
+                 
                   </div>
+
               </article>
+
 
               <article className="servico">
-                  <Link to="/salgadas/pizza-frango"><img src={frango} alt="Pizza Frango" /></Link>
+                  <Link to="#"><img src={noimage} alt="Pizza None" /></Link>
                   
                   <div className="inner">
-                  <Link to="/salgadas/pizza-frango" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Frango</Link>
+                  <Link to="#" style={{fontFamily: "Poppins Regular", color: this.props.color}}>None</Link>
                   <h4 style={{fontFamily: "Poppins Regular", color: this.props.color}}>Receita de Pizza</h4>
-                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de frango perfeita 
+                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza "não adicionada" perfeita 
                 com pequenos e surpreendentes segredos que fazem toda a diferença!</p>
 
-                <div className="border" />
+                 <div className="border" />
 
-                <div  className="testinfo">
+                  <div  className="testinfo">
                                  <img src={serve} alt="icone serve" />
                                     <div className="testpic" style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Serve:</span>
-                                            <br/>6 porções
+                                            <br/>0 porções
                                     </div>
 
                                     <img src={tempo} alt="icone tempo" />
                                     <div  style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Tempo:</span>
-                                            <br/>30 minutos
+                                            <br/>0 minutos
                                     </div>
                         </div>
+                 
                   </div>
+
               </article>
+
                            
         </main>
                
