@@ -3,9 +3,7 @@ import PizzaHeaderReceitas from "../components/pizza-header-receitas"
 import PizzaMenu from "../components/pizza-menu"
 import PizzaBackdrop from "../components/pizza-backdrop"
 import PizzaHeaderCategoria from "../components/pizza-header-categoria"
-import marguerita from '../img/pizza-marguerita.jpg'
-import frango from '../img/pizza-frango.jpg'
-import presunto_queijo from '../img/pizza-presunto-queijo.jpg'
+import noimage from '../img/noimage.jpg'
 import serve from '../img/tray.png'
 import tempo from '../img/timer.png'
 
@@ -48,12 +46,12 @@ export default class Index extends React.Component {
         
         <main className="servicos">
               <article className="servico">
-                  <Link to="/salgadas/pizza-marguerita"><img src={marguerita} alt="Pizza Marguerita" /></Link>
+                  <Link to="#"><img src={noimage} alt="Pizza None" /></Link>
                   
                   <div className="inner">
-                  <Link to="/salgadas/pizza-marguerita" style={{fontFamily: "Poppins Regular", color: this.props.color}}>Pizza Marguerita</Link>
+                  <Link to="#" style={{fontFamily: "Poppins Regular", color: this.props.color}}>None</Link>
                   <h4 style={{fontFamily: "Poppins Regular", color: this.props.color}}>Receita de Pizza</h4>
-                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza de marguerita perfeita 
+                  <p style={{fontFamily: "Poppins Regular", color: this.props.color}}>Passo a passo para fazer uma pizza "não adicionada" perfeita 
                 com pequenos e surpreendentes segredos que fazem toda a diferença!</p>
 
                  <div className="border" />
@@ -62,13 +60,13 @@ export default class Index extends React.Component {
                                  <img src={serve} alt="icone serve" />
                                     <div className="testpic" style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Serve:</span>
-                                            <br/>6 porções
+                                            <br/>0 porções
                                     </div>
 
                                     <img src={tempo} alt="icone tempo" />
                                     <div  style={{fontFamily: "Poppins Regular", color: this.props.color}}>
                                             <span>Tempo:</span>
-                                            <br/>30 minutos
+                                            <br/>0 minutos
                                     </div>
                         </div>
                  
